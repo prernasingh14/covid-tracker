@@ -11,7 +11,7 @@ const CountryPicker=({handleCountryChange})=>{
                   console.log(fetchedCountries);
            }
            fetchAPI();
-    },[setFetchedCountries]);
+    },[fetchedCountries]);
     console.log(fetchedCountries);
 
 

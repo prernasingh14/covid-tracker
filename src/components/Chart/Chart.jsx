@@ -19,7 +19,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
            fetchApi();
 
 
-       },[setDailyData]);
+       },[dailyData]);
 
        const barChart = (
         confirmed ? (
